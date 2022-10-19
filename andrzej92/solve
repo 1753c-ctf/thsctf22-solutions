@@ -1,0 +1,7 @@
+pdf2john ./prezent.pdf > hash
+# remove everything before '$pdf$'
+./peselgen.py | hashcat -m10500 hash
+# or something less clever, maybe
+hashcat -m10500 hash -a3 '921222?d?d?d?d?d?d?d?d?d'
+# that's 20 times slower though
+

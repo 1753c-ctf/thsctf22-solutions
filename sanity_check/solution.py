@@ -1,0 +1,1 @@
+#flaga jest na kanale na discordzie :D 

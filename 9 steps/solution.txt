@@ -1,0 +1,18 @@
+1. Napraw kod QR i udaj się pod wskazany adres.
+
+2. Odczytaj tekst, w którym zawarto pierwszą wskazówkę (po przetłumaczeniu tekstu z hiszpańskiego na polski można zauważyć ukryte w tekście zdanie: Spójrz na on.soundcloud.com z ukośnikiem 2ct3f.
+
+3. Pobierz plik z SoundCloud.com, który znajduje się pod adresem: https://on.soundcloud.com/2ct3f.
+
+4. Pobierz, zainstaluj i uruchom "DeepSound": http://jpinsoft.net/deepsound/download.aspx. Używając DeepSound wyodrębnij ukryty plik graficzny THS22.jpg.
+
+5, Otwórz w edytorze heksadecymalnym plik graficzny wyodrębniony w poprzednim kroku. Odszukaj ukryty URL. Odwróć kolejność składowych URL-a i udaj się pod wskazany adres.
+
+6. Skopiuj zawartość pliku tekstowego i wklej do nowego dokumentu tekstowego. Zauważ znaki Unicode. Wyszukaj: "Steganography unicode" i skorzystaj z właściwego narzędzia online:
+https://www.irongeek.com/i.php?page=security/unicode-steganography-homoglyph-encoder. Odczytaj tekst ukryty w tekście, który skopiowałeś, a który brzmi: "Dziewczęta, dajcie spokój. Milva, Angouleme".
+
+7. Wklej cytat do wyszukiwarki Google i odwiedź witrynę, z której zaczerpnięto ten cytat. Wybierz książkę i wśród opinii odszukaj tę, która jest oznaczona 1753 (zawiera URL z imgur)
+
+8. Udaj się pod wskazany URL. Powiększ obraz i znajdź napis "Elektrorycerz 26", który (idąc za wskazówką w tytule obrazu) wyszukaj w ramach imgur.com (jest tylko jeden plik o takim tagu). Pobierz obraz. Odkoduj z użyciem BASE64 opis obrazu. Udaj się pod wskazany URL, przejdź do sekcji "Decode" i wgraj zapisany w poprzednim kroku obraz.
+
+9. Odczytaj flagę
